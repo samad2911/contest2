@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      
+      <p>Libray System</p>
+    <div class="s"></div>
+      <ul>
+        <li><a href="#table">Books</a></li>
+        <li><a href="#form">Resigter</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </nav>
+    <div class="t">
+      <div id="table">
+        <h2>Books</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Book Id</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Genre</th>
+              <th>Availability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <a
+                  href="https://simple.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+                  target="_blank"
+                  >Harry Potter and the Sorcerer's / Philosopher's Stone</a
+                >
+                <table border="1" class="table">
+                  <tr>
+                    <td>Publication Date:1997</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count:223 pages</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN:978-0747532743</td>
+                  </tr>
+                </table>
+              </td>
+              <td>J.K. Rowling</td>
+              <td>Fantasy</td>
+              <td>Not Availability</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <a
+                  href="https://simple.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets"
+                  target="_blank"
+                  >Harry Potter and the Chamber of Secrets</a
+                >
+                <table border="1" class="table">
+                  <tr>
+                    <td>Publication Date:1998</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count:251 pages</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN:978-0747538493</td>
+                  </tr>
+                </table>
+              </td>
+              <td>J.K. Rowling</td>
+              <td>Fantasy</td>
+              <td>Not Availability</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban"
+                  target="_blank"
+                  >Harry Potter and the Prisoner of Azkaban</a
+                >
+                <table border="1" class="table">
+                  <tr>
+                    <td>Publication Date:1999</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count:317 pages</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 978-0747542155</td>
+                  </tr>
+                </table>
+              </td>
+              <td>J.K. Rowling</td>
+              <td>Fantasy</td>
+              <td>Availability</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                <a
+                  href="https://simple.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire"
+                  target="_blank"
+                  >Harry Potter and the Goblet of Fire</a
+                >
+                <table border="1" class="table">
+                  <tr>
+                    <td>Publication Date:2000</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count:636</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN:978-0747546245</td>
+                  </tr>
+                </table>
+              </td>
+              <td>J.K. Rowling</td>
+              <td>Fantasy</td>
+              <td>Not Availability</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>
+                <a
+                  href="https://www.wikiwand.com/en/Harry_Potter_and_the_Order_of_the_Phoenix"
+                  target="_blank"
+                  >Harry Potter and the Order of the Phoenix</a
+                >
+                <table border="1" class="table">
+                  <tr>
+                    <td>Publication Date:2003</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count:870 pages</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN:978-0747551003</td>
+                  </tr>
+                </table>
+              </td>
+              <td>J.K. Rowling</td>
+              <td>Fantasy</td>
+              <td>Availability</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br>
+      <div id="form">
+        <h2 >Resigter</h2>
+        <form>
+        <label for="firstname">First Name:</label><br />
+        <input id="firstname" type="text" required/><br />
+        <label for="lastname">Last Name:</label><br />
+        <input id="lastname" type="text" required/><br />
+        <label for="dob">Date of Birth:</label><br />
+        <input id="dob" type="date" required/><br />
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="5" max="120" required/><br>
+        <label for="email">Email:</label><br />
+        <input id="email" type="email" required/><br />
+        <label for="password">Password:</label><br />
+        <input id="password" type="password" required name="password" /><br />
+        <label for="conformpassword">Conform Password:</label><br />
+        <input id="conformpassword" type="password" name="conformpassword" required/><br />
+        <button type="submit" value="submit">Resigter</button>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>
